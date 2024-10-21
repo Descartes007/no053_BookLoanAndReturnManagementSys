@@ -1,0 +1,98 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/news-detail/news-detail",
+    "pages/chujiezhe/list",
+    "pages/chujiezhe/add-or-update",
+    "pages/chujiezhe/detail",
+    "pages/jieyuezhe/list",
+    "pages/jieyuezhe/add-or-update",
+    "pages/jieyuezhe/detail",
+    "pages/tushufenlei/list",
+    "pages/tushufenlei/add-or-update",
+    "pages/tushufenlei/detail",
+    "pages/tushuxinxi/list",
+    "pages/tushuxinxi/add-or-update",
+    "pages/tushuxinxi/detail",
+    "pages/tushujieyue/list",
+    "pages/tushujieyue/add-or-update",
+    "pages/tushujieyue/detail",
+    "pages/tushuguihai/list",
+    "pages/tushuguihai/add-or-update",
+    "pages/tushuguihai/detail",
+    "pages/fankuixinxi/list",
+    "pages/fankuixinxi/add-or-update",
+    "pages/fankuixinxi/detail",
+    "pages/chuzushouru/list",
+    "pages/chuzushouru/add-or-update",
+    "pages/chuzushouru/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/messages/list",
+    "pages/messages/liuyan",
+    "pages/discusstushuxinxi/list",
+    "pages/discusstushuxinxi/add-or-update",
+    "pages/discusstushuxinxi/detail",
+    "pages/pay-confirm/pay-confirm",
+    "common/linkOthers/linkOthers",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "“共享书角”图书借还管理系统",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#2C4149",
+    "borderStyle": "white",
+    "backgroundColor": "#21D5AE",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tushuxinxi/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "图书信息"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取地址"
+    }
+  },
+  "requiredPrivateInfos": [
+    "chooseLocation",
+    "getLocation"
+  ],
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "z-swiper-item": "/components/zebra-swiper/components/z-swiper-item/z-swiper-item",
+    "z-swiper": "/components/zebra-swiper/components/z-swiper/z-swiper",
+    "music-play": "/components/musicPlay/musicPlay"
+  }
+}

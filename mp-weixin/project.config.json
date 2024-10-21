@@ -1,0 +1,24 @@
+{
+    "description": "项目配置文件。",
+    "packOptions": {
+        "ignore": [],
+        "include": []
+    },
+    "setting": {
+        "urlCheck": false,
+        "babelSetting": {
+            "ignore": [],
+            "disablePlugins": [],
+            "outputPath": ""
+        }
+    },
+    "compileType": "miniprogram",
+    "libVersion": "3.5.7",
+    "appid": "wxd5d9d4946ed547f2",
+    "projectname": "app02",
+    "condition": {},
+    "editorSetting": {
+        "tabIndent": "insertSpaces",
+        "tabSize": 4
+    }
+}

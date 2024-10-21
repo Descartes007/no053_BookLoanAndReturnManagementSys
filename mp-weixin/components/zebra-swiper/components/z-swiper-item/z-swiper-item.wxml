@@ -1,0 +1,2 @@
+<wxs src="../../wxs/z-swiper-wxs.wxs" module="zSwiperWxs"></wxs>
+<view class="{{['data-v-6cc464ce','swiper-slide',slideClass]}}" style="{{$root.s0}}" swiperItemTransform="{{wxsItemTransform}}" change:swiperItemTransform="{{zSwiperWxs.wxsItemTransformObserver}}" data-event-opts="{{[['tap',[['onClickSlide',['$event']]]]]}}" catchtap="__e"><slot></slot></view>
